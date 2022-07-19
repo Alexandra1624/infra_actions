@@ -26,10 +26,6 @@ jobs:
         python -m flake8
         cd infra_project/
         python manage.py test
-<<<<<<< HEAD
-=======
-
->>>>>>> 861bd24781e0e9ac568471a52cec151cd85a1900
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
